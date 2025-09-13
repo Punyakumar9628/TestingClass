@@ -90,6 +90,7 @@ public class TestCase1 {
             Thread.sleep(2000);
             if(oBrowser.getTitle().equalsIgnoreCase("actiTIME - Login")){
                 System.out.println("Logout from actiTime was successful");
+
             }else{
                 System.out.println("Failed to lgout from actiTime");
                 return;
